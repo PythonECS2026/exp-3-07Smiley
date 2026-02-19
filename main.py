@@ -1,18 +1,15 @@
 # AIM: Write a Python program to calculate the gross salary of an employee.
 # Coder:
-# Date:print("Salary Calculator")
-
-basic = float(input("Enter the basic salary: "))
-
+# Date:
+basic = 5000.0
 da = basic * 0.70
 ta = basic * 0.30
 hra = basic * 0.10
 gross = basic + da + ta + hra
-
 print("\nSalary Details:")
-print(f"Basic Salary:\t{basic:.2f}")
-print(f"DA (70%):\t{da:.2f}")
-print(f"TA (30%):\t{ta:.2f}")
-print(f"HRA (10%):\t{hra:.2f}")
-print(f"Gross Salary:\t{gross:.2f}")
+print("Basic Salary:", basic)
+print("DA (70%):", da)
+print("TA (30%):", ta)
+print("HRA (10%):", hra)
+print("Gross Salary:", gross)
 # Write your code here
