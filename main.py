@@ -2,10 +2,12 @@
 # Coder:
 # Date:
 basic = float(input())
+
 da = basic * 0.70
 ta = basic * 0.30
 hra = basic * 0.10
 gross = basic + da + ta + hra
+
 print("Salary Details:")
 print(f"Basic Salary:\t{basic:.1f}")
 print(f"DA (70%):\t{da:.1f}")
