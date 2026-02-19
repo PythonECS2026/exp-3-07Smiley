@@ -11,5 +11,5 @@ print(f"Basic Salary:\t{basic:.1f}")
 print(f"DA (70%):\t{da:.1f}")
 print(f"TA (30%):\t{ta:.1f}")
 print(f"HRA (10%):\t{hra:.1f}")
-print(f"Gross Salary:\t{gross:.1f}"
+print(f"Gross Salary:\t{gross:.1f})"
 # Write your code here
