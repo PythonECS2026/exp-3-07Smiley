@@ -9,9 +9,9 @@ hra = basic * 0.10
 gross = basic + da + ta + hra
 
 print("Salary Details:")
-print(f"Basic Salary:    {basic:.2f}")
-print(f"DA (70%):        {da:.2f}")
-print(f"TA (30%):        {ta:.2f}")
-print(f"HRA (10%):       {hra:.2f}")
-print(f"Gross Salary:    {gross:.2f}")
+print(f"Basic Salary:    {basic:g}")
+print(f"DA (70%):        {da:g}")
+print(f"TA (30%):        {ta:g}")
+print(f"HRA (10%):       {hra:g}")
+print(f"Gross Salary:    {gross:g}")
 # Write your code here
